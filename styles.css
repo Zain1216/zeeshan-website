@@ -686,8 +686,8 @@ section {
 /* Chatbot Widget */
 .chatbot-widget {
     position: fixed;
-    bottom: 100px;
-    left: 30px;
+    bottom: 170px;
+    right: 30px;
     width: 350px;
     height: 450px;
     background: white;
@@ -696,7 +696,7 @@ section {
     z-index: 1000;
     display: flex;
     flex-direction: column;
-    transform: translateX(-400px);
+    transform: translateX(400px);
     transition: transform 0.3s ease;
 }
 
@@ -752,7 +752,7 @@ section {
 .bot-message {
     background: #e0f2fe;
     align-self: flex-start;
-    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
 
 .user-message {
@@ -802,8 +802,8 @@ section {
 
 .chatbot-toggle {
     position: fixed;
-    bottom: 30px;
-    left: 30px;
+    bottom: 90px;
+    right: 30px;
     width: 60px;
     height: 60px;
     background: linear-gradient(135deg, #2563eb, #10b981);
@@ -831,13 +831,13 @@ section {
     .chatbot-widget {
         width: 90%;
         height: 400px;
-        left: 5%;
-        bottom: 80px;
+        right: 5%;
+        bottom: 170px;
     }
     
     .chatbot-toggle {
-        bottom: 20px;
-        left: 20px;
+        bottom: 100px;
+        right: 30px;
         width: 50px;
         height: 50px;
     }
